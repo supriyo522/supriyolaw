@@ -1,0 +1,44 @@
+.wrapper {
+  background: #111;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 150px;
+}
+
+.midDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 41px;
+}
+.midDiv p {
+  color: var(--pure-white, #fff);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 162.523%;
+  cursor: pointer;
+}
+
+.wrapper button {
+  padding: 14px 35px;
+  color: var(--pure-white, #fff);
+  background: #111;
+  border: 2px solid #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.wrapper button:hover {
+  background-color: var(--pure-white, #fff);
+  color: #111;
+}

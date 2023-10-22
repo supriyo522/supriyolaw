@@ -1,0 +1,119 @@
+.wrapper {
+  max-width: 1139px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 14px; */
+  margin-bottom: 220px;
+  /* height: 100%;
+  max-height: 550px; */
+  /* height: clamp(200px, 100%, 600px); */
+}
+
+.wrapper > p {
+  color: var(--pure-white, #fff);
+  font-family: Inter;
+  font-size: 54px;
+  /* padding-top: 40px; */
+  font-style: normal;
+  font-weight: 600;
+  /* line-height: 138.023%;  */
+}
+
+.content {
+  width: 100%;
+  display: flex;
+}
+
+.titleDiv {
+  width: 50%;
+  padding-right: 130px;
+}
+
+.titleDiv > p {
+  color: var(--pure-white, #fff);
+  font-family: Inter;
+  font-size: 18px;
+  padding-top: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%; /* 29.254px */
+  opacity: 0.3;
+}
+
+.accordian {
+  width: 50%;
+  height: 480px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  justify-content: flex-start;
+}
+
+.accordian::-webkit-scrollbar {
+  display: none;
+}
+
+.cardWrapper {
+  padding: 40px 0px 40px 0px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+}
+
+.cardTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.cardTitle > p {
+  color: var(--pure-white, #fff);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 100% */
+}
+
+.cardContent {
+  overflow: scroll;
+  transition: all 0.5s ease;
+  height: 200px;
+  padding-right: 20px;
+}
+
+.cardContent::-webkit-scrollbar {
+  display: none;
+}
+
+.cardContent1 {
+  overflow: hidden;
+  transition: all 0.5s ease;
+  height: 0;
+  padding-right: 20px;
+}
+
+.cardContent1 > p {
+  color: var(--pure-white, #fff);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%; /* 29.254px */
+  opacity: 0.3;
+  margin-top: 20px;
+}
+
+.cardContent > p {
+  color: var(--pure-white, #fff);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%; /* 29.254px */
+  opacity: 0.3;
+  margin-top: 20px;
+}
